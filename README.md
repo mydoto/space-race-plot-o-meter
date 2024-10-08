@@ -1,1 +1,166 @@
-# space-race-plot-o-meter
+## Autonomys Network Space Race Plot-O-Meter
+
+Welcome to the Autonomys Network Space Race Plot-O-Meter project! This application displays real-time blockchain data in a visually engaging thermometer, ranging from 0 PiB to 20 PiB, using Auto SDK, JavaScript and pure CSS.
+
+### Prerequisites
+- Node.js: Version 14 or higher is recommended.
+- npm: Node Package Manager, comes with Node.js.
+
+---
+
+I'm glad you love it!
+
+Here's a **README.md** file that provides detailed instructions on how to fork the repository, install all necessary packages, start the server, and view the application in your browser.
+
+---
+
+# Autonomys Network Space Race Plot-O-Meter
+
+Welcome to the **Autonomys Network Space Race Plot-O-Meter** project! This application displays real-time blockchain data in a visually engaging thermometer, ranging from 0 PiB to 20 PiB, using pure CSS and JavaScript.
+
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+  - [Forking the Repository](#forking-the-repository)
+  - [Cloning the Repository](#cloning-the-repository)
+  - [Installing Dependencies](#installing-dependencies)
+  - [Starting the Server](#starting-the-server)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## Features
+
+- **Real-Time Data**: Fetches and displays the latest `spacePledged` data from the Autonomys blockchain every second.
+- **Dynamic Visualization**: A thermometer that visually represents the data, with animations and effects.
+- **Cosmic Theme**: A space-inspired design using pure CSS, including a moving starfield and nebula effect.
+- **Pure CSS Design**: No images required; all visuals are created using CSS.
+
+---
+
+## Prerequisites
+
+- **Node.js**: Version 14 or higher is recommended.
+- **npm**: Node Package Manager, comes with Node.js.
+
+---
+
+## Getting Started
+
+### Forking the Repository
+
+1. **Fork the Repository on GitHub**:
+
+   - Navigate to the original repository on GitHub.
+   - Click on the **Fork** button at the top-right corner of the page.
+   - This will create a copy of the repository under your GitHub account.
+
+### Cloning the Repository
+
+2. **Clone Your Forked Repository**:
+
+   Open your terminal or command prompt and run the following command, replacing `<your-username>` with your GitHub username:
+
+   ```bash
+   git clone https://github.com/<your-username>/autonomys-space-race-plotometer.git
+   ```
+
+3. **Navigate to the Project Directory**:
+
+   ```bash
+   cd autonomys-space-race-plotometer
+   ```
+
+### Installing Dependencies
+
+4. **Initialize npm**:
+
+   If a `package.json` file isn't already present, initialize npm:
+
+   ```bash
+   npm init -y
+   ```
+
+5. **Install Required Packages**:
+
+   ```bash
+   npm install express @autonomys/auto-consensus @autonomys/auto-utils
+   ```
+
+6. **Update `package.json`**:
+
+   Ensure your `package.json` includes the following:
+
+   ```json
+   {
+     "name": "autonomys-space-race-plotometer",
+     "version": "1.0.0",
+     "description": "Autonomys Network Space Race Plot-O-Meter",
+     "main": "server.js",
+     "type": "module",
+     "scripts": {
+       "start": "node server.js"
+     },
+     "dependencies": {
+       "express": "^4.17.1",
+       "@autonomys/auto-consensus": "^1.0.0",
+       "@autonomys/auto-utils": "^1.0.0"
+     }
+   }
+   ```
+
+   Adjust versions as necessary.
+
+### Starting the Server
+
+7. **Run the Express Server**:
+
+   ```bash
+   npm start
+   ```
+
+   You should see:
+
+   ```
+   Server running at http://localhost:3000
+   ```
+
+---
+
+## Usage
+
+8. **Access the Application**:
+
+   Open your web browser and navigate to:
+
+   ```
+   http://localhost:3000/
+   ```
+
+   You should see the **Autonomys Network Space Race Plot-O-Meter** displaying real-time data with dynamic visuals.
+
+---
+
+## Project Structure
+
+Your project directory should look like this:
+
+```
+autonomys-space-race-plotometer/
+├── server.js
+├── package.json
+└── public/
+    └── index.html
+```
+
+- **`server.js`**: The Express server file.
+- **`package.json`**: Contains project metadata and dependencies.
+- **`public/index.html`**: The main HTML file for the front-end.
+
+--
