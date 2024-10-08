@@ -6,48 +6,12 @@ Welcome to the Autonomys Network Space Race Plot-O-Meter project! This applicati
 - Node.js: Version 14 or higher is recommended.
 - npm: Node Package Manager, comes with Node.js.
 
----
-
-I'm glad you love it!
-
-Here's a **README.md** file that provides detailed instructions on how to fork the repository, install all necessary packages, start the server, and view the application in your browser.
-
----
-
-# Autonomys Network Space Race Plot-O-Meter
-
-Welcome to the **Autonomys Network Space Race Plot-O-Meter** project! This application displays real-time blockchain data in a visually engaging thermometer, ranging from 0 PiB to 20 PiB, using pure CSS and JavaScript.
-
-## Table of Contents
-
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-  - [Forking the Repository](#forking-the-repository)
-  - [Cloning the Repository](#cloning-the-repository)
-  - [Installing Dependencies](#installing-dependencies)
-  - [Starting the Server](#starting-the-server)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
-## Features
+### Features
 
 - **Real-Time Data**: Fetches and displays the latest `spacePledged` data from the Autonomys blockchain every second.
 - **Dynamic Visualization**: A thermometer that visually represents the data, with animations and effects.
 - **Cosmic Theme**: A space-inspired design using pure CSS, including a moving starfield and nebula effect.
 - **Pure CSS Design**: No images required; all visuals are created using CSS.
-
----
-
-## Prerequisites
-
-- **Node.js**: Version 14 or higher is recommended.
-- **npm**: Node Package Manager, comes with Node.js.
 
 ---
 
