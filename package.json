@@ -1,8 +1,8 @@
 {
   "type": "module",
   "dependencies": {
-    "@autonomys/auto-consensus": "^0.6.5",
-    "@autonomys/auto-utils": "^0.6.5",
+    "@autonomys/auto-consensus": "^1.0.0",
+    "@autonomys/auto-utils": "^1.0.0",
     "express": "^4.21.1"
   },
   "scripts": {
