@@ -87,7 +87,6 @@
         const data = await response.json();
         const bytes = BigInt(data.spacePledged);
         const pib = bytesToPiB(bytes);
-        const blockHeight = data.blockHeight;
         updateThermometer(pib);
       } catch (error) {
         console.error('Error fetching spacePledged:', error);
@@ -117,9 +116,6 @@
      // Function to output in g-number
      const pledgedPercentElement = document.querySelector('.g-number');
      pledgedPercentElement.textContent = `${percentage.toFixed(2)}%`;
-
-     // 
-     console.log('Block Height:', data.blockHeight);
 
     }
 
